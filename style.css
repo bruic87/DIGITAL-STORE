@@ -208,18 +208,25 @@
     justify-content: center;
 }
 
-.container .botao__link {
+.container__botao {
+    text-align: right;
+}
+
+
+.container__botao .botao__link {
     font-size: 1rem;
     padding: 1rem;
     border-radius: 0%;
 }
 
-.container .row{
+.container__labels {
+    margin-top: 3%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labels {
     display: flex;
-    flex-direction: row;
+    gap: 10%;
+    width: auto;
 }
-
-textarea {
-    
-}
-
